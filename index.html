@@ -53,7 +53,7 @@
     You can of course pass parameters.</p>
     <p>3. Stay updated from inside to outside. Use ng-change in directive.</p>
     <p>4. Stay updated from outside to inside. In directive controller function can be: 
-      <code>
+      <pre><code>
         function FooDirCtrl($scope) {
           var vm = this;
           vm.uName = vm.getName();
@@ -64,7 +64,7 @@
               vm.uName = newName;
           });
         }
-      </code>
+      </code></pre>
     </p>
     <p>Finally, one page have one smart component, and all other domb components get data from this smart one.</p>
   </body>
