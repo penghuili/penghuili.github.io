@@ -12,7 +12,8 @@
     </style>
   </head>
   <body>
-    <h1>How "=" and "&" behave in bindToController?</h1>
+    <h1>Components in AngularJS 1</h1>
+    <h2>How "=" and "&" behave in bindToController?</h2>
     <table>
       <thead>
         <tr>
@@ -34,5 +35,37 @@
         </tr>
       </tbody>
     </table>
+    
+    <h2>How to make components with directive?</h2>
+    <p>Components in the view are like functions in the logic, they can be reused, and they can have "parameters".</p>
+    <p>If your component does not need to communicate with outer data, it's perfect, all of its data and behaviours 
+    are in its own controller.</p>
+    <p>But in many cases, you do need data from outside. 
+    In functions you better not use globle variables, so do components, you donot refer to outer controllers in
+    your directive template or directive controller. To acomplish this, you use bindToController to get access to 
+    outer data.</p>
+    <p>But never use two way data binding, because if you have sevaral directives communicating with outer controllers,
+    you may end up not knowing who changed the data. And donot use "@", what it gives you is only a string, not array,
+    not object. Only use "&", function, this also means, you need to define some functions in outer controller.</p>
+    <p>And always make your directive isolate, with "scope: {}".</p>
+    <p>1. Get data. Call get function. assign it to a local variable.</p>
+    <p>2. Change data. Call set function, but you need to run this function in your own directive function.
+    You can of course pass parameters.</p>
+    <p>3. Stay updated from inside to outside. Use ng-change in directive.</p>
+    <p>4. Stay updated from outside to inside. In directive controller function can be: 
+      <code>
+        function FooDirCtrl($scope) {
+          var vm = this;
+          vm.uName = vm.getName();
+          //you have already got vm.getName() from directive parameter
+          $scope.$watch(function(){
+              return vm.getName()
+            }, function(newName) {
+              vm.uName = newName;
+          });
+        }
+      </code>
+    </p>
+    <p>Finally, one page have one smart component, and all other domb components get data from this smart one.</p>
   </body>
 </html>
