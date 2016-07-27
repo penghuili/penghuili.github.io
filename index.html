@@ -1,1 +1,30 @@
-hello world
+<!doctype html>
+<html>
+  <head>
+    <title>bindToController</title>
+  </head>
+  <body>
+    <h1>How "=" and "&" behave in bindToController?</h1>
+    <table>
+      <thead>
+        <tr>
+          <td></td>
+          <td>function</td>
+          <td>variable</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>=</td>
+          <td>OK. add () at outer controller, use as variable in directive. but cannot change data</td>
+          <td>absolutely</td>
+        </tr>
+        <tr>
+          <td>&</td>
+          <td>absolutely. add () at outer controller, add () in directive. cannot change data</td>
+          <td>no</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
