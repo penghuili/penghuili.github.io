@@ -56,8 +56,9 @@
       <pre><code>
         function FooDirCtrl($scope) {
           var vm = this;
-          vm.uName = vm.getName();
           //you have already got vm.getName() from directive parameter
+          vm.uName = vm.getName();
+          
           $scope.$watch(function(){
               return vm.getName()
             }, function(newName) {
