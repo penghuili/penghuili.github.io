@@ -9,15 +9,29 @@
     <style>
       .ph-wrapper {
         display: flex;
-        flex-direction: column;
         justify-content: center;
+      }
+      .ph-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
         align-items: center;
+        width: 100%;
 
         padding: 30px 0;
       }
+
+      .ph-title {
+        padding-bottom: 16px;
+        font-family: Verdana,sans-serif;
+      }
+
       .ph-button {
         display: inline-block;
-        width: 250px;
+        width: 80%;
+        height: 25px;
+        line-height: 25px;
+        max-width: 250px;
         padding: 14px 25px;
         margin-bottom: 8px;
         
@@ -62,26 +76,65 @@
       .ph-button--mtime {
         background-color: #1e7dd7;
       }
+      .ph-button--xiami {
+        background-color: #FA8723;
+      }
+      .ph-button--weibo {
+        background-color: #4d7a95;
+      }
 
       @media screen and (max-width: 567px) {
-        .ph-button {
-          width: 80%;
+        .ph-u-no-sm {
+          display: none;
+        }
+        .ph-desktop {
+          display: none;
+        }
+      }
+
+      @media screen and (min-width: 568px) {
+        .ph-u-no-bigger-than-sm {
+          display: none;
         }
       }
     </style>
   </head>
   <body>
     <div class="ph-wrapper">
-      <a class="ph-button ph-button--ginmon" href="https://test-customer-center.ginmon.de" target="_blank">Ginmon</a>
-      <a class="ph-button ph-button--keep" href="https://keep.google.com" target="_blank">Keep</a>      
-      <a class="ph-button ph-button--github" href="https://github.com/ginmon/customer-center" target="_blank">Github</a>
-      <a class="ph-button ph-button--twitter" href="https://mobile.twitter.com/home" target="_blank">Twitter</a>
-      <a class="ph-button ph-button--d" href="http://m.hujiang.com/d/" target="_blank">小D</a>
-      <a class="ph-button ph-button--db" href="https://mobile.bahn.de/bin/mobil/query.exe/dox?country=DEU&rt=1&use_realtime_filter=1&webview=&searchMode=NORMAL" target="_blank">DB</a>
-      <a class="ph-button ph-button--art" href="https://www.wikiart.org/" target="_blank">Wikiart</a>
-      <a class="ph-button ph-button--dhelper" href="http://www.godic.net/" target="_blank">德语助手</a>      
-      <a class="ph-button ph-button--douban" href="https://m.douban.com/book/" target="_blank">豆瓣读书</a>      
-      <a class="ph-button ph-button--mtime" href="http://m.mtime.cn" target="_blank">时光网</a>      
+      <div class="ph-mobile ph-flex">
+        <span class="ph-title">Mobile and Desktop</span>
+        <a class="ph-button ph-button--ginmon" href="https://test-customer-center.ginmon.de" target="_blank">Ginmon</a>
+
+        <a class="ph-button ph-button--keep" href="https://keep.google.com" target="_blank">Keep</a>      
+
+        <a class="ph-button ph-button--github" href="https://github.com/ginmon/customer-center" target="_blank">Github</a>
+
+        <a class="ph-button ph-button--twitter ph-u-no-bigger-than-sm" href="https://mobile.twitter.com/home" target="_blank">Twitter</a>
+        <a class="ph-button ph-button--twitter ph-u-no-sm" href="https://twitter.com/" target="_blank">Twitter</a>      
+
+        <a class="ph-button ph-button--d ph-u-no-bigger-than-sm" href="http://m.hujiang.com/d/" target="_blank">小D</a>
+        <a class="ph-button ph-button--d ph-u-no-sm" href="http://dict.hjenglish.com/" target="_blank">小D</a>      
+
+        <a class="ph-button ph-button--db ph-u-no-bigger-than-sm" href="https://mobile.bahn.de/bin/mobil/query.exe/dox?country=DEU&rt=1&use_realtime_filter=1&webview=&searchMode=NORMAL" target="_blank">DB</a>
+        <a class="ph-button ph-button--db ph-u-no-sm" href="https://www.bahn.de" target="_blank">DB</a>
+        
+        <a class="ph-button ph-button--art" href="https://www.wikiart.org/" target="_blank">Wikiart</a>
+
+        <a class="ph-button ph-button--dhelper" href="http://www.godic.net/" target="_blank">德语助手</a>      
+
+        <a class="ph-button ph-button--douban ph-u-no-bigger-than-sm" href="https://m.douban.com/book/" target="_blank">豆瓣读书</a>      
+        <a class="ph-button ph-button--douban ph-u-no-sm" href="https://book.douban.com" target="_blank">豆瓣读书</a>      
+        
+        <a class="ph-button ph-button--mtime ph-u-no-bigger-than-sm" href="http://m.mtime.cn" target="_blank">时光网</a>      
+        <a class="ph-button ph-button--mtime ph-u-no-sm" href="http://www.mtime.com" target="_blank">时光网</a>      
+      </div>
+
+      <div class="ph-desktop ph-flex">
+        <span class="ph-title">Desktop only</span>
+        <a class="ph-button ph-button--xiami" href="http://www.xiami.com/" target="_blank">虾米</a>
+        <a class="ph-button ph-button--weibo" href="http://www.weibo.com/phismonster/home" target="_blank">微博</a>        
+      </div>
+      
     </div>
   </body>
 </html>
