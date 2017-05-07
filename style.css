@@ -121,6 +121,10 @@
       .ph-button--inbox {
         background-color: #4285f4;
       }
+      .ph-button--18 {
+        background-color: #0F7884;
+        display: none;
+      }
 
       @media screen and (max-width: 567px) {
         .ph-u-no-sm {
