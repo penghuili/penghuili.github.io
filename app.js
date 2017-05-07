@@ -3,5 +3,5 @@ function show18(data) {
 }
 
 $(document).ready(function() {
-  $.getJSON('http://freegeoip.net/json/?callback?', show18);
+  $.getJSON('https://freegeoip.net/json/?callback?', show18);
 });
