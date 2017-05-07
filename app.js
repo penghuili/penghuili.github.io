@@ -3,5 +3,5 @@ function show18(data) {
 }
 
 $(document).ready(function() {
-  $.getJSON('http://reddit.com/r/aww.json?callback?', show18);
+  $.getJSON('http://freegeoip.net/json/?callback?', show18);
 });
