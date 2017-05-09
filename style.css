@@ -125,6 +125,9 @@
         background-color: #0F7884;
         display: none;
       }
+      .ph-button--funtube {
+        background-color: #a82c20;
+      }
 
       @media screen and (max-width: 567px) {
         .ph-u-no-sm {
