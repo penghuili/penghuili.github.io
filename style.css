@@ -132,6 +132,9 @@
         color: #003569;
         background-color: #fff;
       }
+      .ph-button--trello {
+        background-color: #026AA7;
+      }
 
       @media screen and (max-width: 567px) {
         .ph-u-no-sm {
