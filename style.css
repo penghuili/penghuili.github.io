@@ -45,9 +45,6 @@
       .ph-button--github {
         background-color: #24292e;
       }
-      .ph-button--twitter {
-        background-color: #1DA1F2;
-      }
       .ph-button--d {
         background-color: #44b336;
       }
@@ -58,7 +55,11 @@
         background-color: #36A3B7;
       }
       .ph-button--dhelper {
-        background-color: #51a351;
+        background: #51a351; /* For browsers that do not support gradients */
+        background: -webkit-linear-gradient(#000000, #ff0000, #ffff00); /* For Safari 5.1 to 6.0 */
+        background: -o-linear-gradient(#000000, #ff0000, #ffff00); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(#000000, #ff0000, #ffff00); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(#000000, #ff0000, #ffff00); /* Standard syntax */
       }
       .ph-button--douban {
         color: #614e3c;
@@ -79,23 +80,11 @@
       .ph-button--duonao {
         background-color: #e93c1a;
       }
-      .ph-button--bilibili {
-        background-color: #ffafc9;
-      }
-      .ph-button--fenglin {
-        background-color: #fb8c00;
-      }
       .ph-button--163 {
         background-color: #31a030;
       }
       .ph-button--youtube {
         background-color: #e62117;
-      }
-      .ph-button--imdb {
-        background-color: #f3ce00;
-      }
-      .ph-button--zhihu {
-        background-color: #0f88eb;
       }
       .ph-button--slack {
         background-color: rgb(77, 57, 75);
@@ -127,10 +116,6 @@
       }
       .ph-button--funtube {
         background-color: #a82c20;
-      }
-      .ph-button--ins {
-        color: #003569;
-        background-color: #fff;
       }
       .ph-button--trello {
         background-color: #026AA7;
