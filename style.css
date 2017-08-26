@@ -1,6 +1,11 @@
       .ph-wrapper {
         display: flex;
         justify-content: center;
+
+        background: -webkit-linear-gradient(left, rgb(66, 39, 90), rgb(115, 75, 109));
+        background: -o-linear-gradient(right, rgb(66, 39, 90), rgb(115, 75, 109));
+        background: -moz-linear-gradient(right, rgb(66, 39, 90), rgb(115, 75, 109));
+        background: linear-gradient(to right, rgb(66, 39, 90), rgb(115, 75, 109));
       }
       .ph-flex {
         display: flex;
