@@ -6,10 +6,10 @@ body {
   display: flex;
   justify-content: center;
 
-  background: -webkit-linear-gradient(left, rgb(66, 39, 90), rgb(115, 75, 109));
-  background: -o-linear-gradient(right, rgb(66, 39, 90), rgb(115, 75, 109));
-  background: -moz-linear-gradient(right, rgb(66, 39, 90), rgb(115, 75, 109));
-  background: linear-gradient(to right, rgb(66, 39, 90), rgb(115, 75, 109));
+  background: -webkit-linear-gradient(left, rgb(69, 104, 220), rgb(176, 106, 179));
+  background: -o-linear-gradient(right, rgb(69, 104, 220), rgb(176, 106, 179));
+  background: -moz-linear-gradient(right, rgb(69, 104, 220), rgb(176, 106, 179));
+  background: linear-gradient(to right, rgb(69, 104, 220), rgb(176, 106, 179));
 }
 .ph-flex {
   display: flex;
