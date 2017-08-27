@@ -112,6 +112,9 @@ body {
 .ph-button--toggl {
   background-color: #f30c16;
 }
+.ph-button--anydo {
+  background-color: #09c;
+}
 .ph-button--sonar {
   background-color: #262626;
 }
