@@ -1,4 +1,5 @@
 body {
+  min-height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -6,10 +7,10 @@ body {
   display: flex;
   justify-content: center;
 
-  background: -webkit-linear-gradient(left, rgb(69, 104, 220), rgb(176, 106, 179));
-  background: -o-linear-gradient(right, rgb(69, 104, 220), rgb(176, 106, 179));
-  background: -moz-linear-gradient(right, rgb(69, 104, 220), rgb(176, 106, 179));
-  background: linear-gradient(to right, rgb(69, 104, 220), rgb(176, 106, 179));
+  background: -webkit-linear-gradient(-20deg, rgb(69, 104, 220), rgb(176, 106, 179));
+  background: -o-linear-gradient(-20deg, rgb(69, 104, 220), rgb(176, 106, 179));
+  background: -moz-linear-gradient(-20deg, rgb(69, 104, 220), rgb(176, 106, 179));
+  background: linear-gradient(to -20deg, rgb(69, 104, 220), rgb(176, 106, 179));
 }
 .ph-flex {
   display: flex;
@@ -133,6 +134,9 @@ body {
 }
 .ph-button--trello {
   background-color: #026AA7;
+}
+.ph-button--wikia {
+  background-color: #380759;
 }
 
 @media screen and (max-width: 567px) {
