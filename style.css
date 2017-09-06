@@ -138,6 +138,9 @@ body {
 .ph-button--wikia {
   background-color: #380759;
 }
+.ph-button--genius {
+  border-color: #ffff64;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
