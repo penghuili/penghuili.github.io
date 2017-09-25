@@ -48,9 +48,6 @@ body {
 .ph-button:last-of-type {
   margin-bottom: 8px;
 }
-.ph-button--ginmon {
-  background-color: #0083bc;
-}
 .ph-button--keep {
   background-color: #fb0;
 }
@@ -92,9 +89,6 @@ body {
 .ph-button--duonao {
   background-color: #e93c1a;
 }
-.ph-button--163 {
-  background-color: #31a030;
-}
 .ph-button--youtube {
   background-color: #e62117;
 }
@@ -104,20 +98,8 @@ body {
 .ph-button--jira {
   background-color: #3572b0;
 }
-.ph-button--notion {
-  background-color: rgb(65, 65, 65);
-}
-.ph-button--box {
-  background-color: #0061D5;
-}
-.ph-button--toggl {
-  background-color: #f30c16;
-}
 .ph-button--anydo {
   background-color: #09c;
-}
-.ph-button--sonar {
-  background-color: #262626;
 }
 .ph-button--asana {
   background-color: #fd9a00;
@@ -125,22 +107,14 @@ body {
 .ph-button--inbox {
   background-color: #4285f4;
 }
-.ph-button--18 {
-  background-color: #0F7884;
-  display: none;
-}
 .ph-button--funtube {
   background-color: #a82c20;
-}
-.ph-button--trello {
-  background-color: #026AA7;
 }
 .ph-button--wikia {
   background-color: #380759;
 }
-.ph-button--genius {
-  background-color: #ffff64;
-  color: black;
+.ph-button--twitter {
+  background-color: #1da1f2;
 }
 
 @media screen and (max-width: 567px) {
