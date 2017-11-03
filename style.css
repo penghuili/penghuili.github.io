@@ -116,6 +116,12 @@ body {
 .ph-button--twitter {
   background-color: #1da1f2;
 }
+.ph-button--jenkins {
+  border-color: #204A87;
+}
+.ph-button--ginmon {
+  background-color: #0083bc;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
