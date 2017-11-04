@@ -117,10 +117,13 @@ body {
   background-color: #1da1f2;
 }
 .ph-button--jenkins {
-  border-color: #204A87;
+  background-color: #204A87;
 }
 .ph-button--ginmon {
   background-color: #0083bc;
+}
+.ph-button--toggl {
+  background-color: rgb(226, 4, 5);
 }
 
 @media screen and (max-width: 567px) {
