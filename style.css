@@ -125,6 +125,9 @@ body {
 .ph-button--toggl {
   background-color: rgb(226, 4, 5);
 }
+.ph-button--sentry {
+  background-color: #342c3e;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
