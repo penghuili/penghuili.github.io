@@ -33,7 +33,7 @@ body {
   width: 80%;
   height: 25px;
   line-height: 25px;
-  max-width: 250px;
+  max-width: 95%;
   padding: 14px 25px;
   margin-bottom: 8px;
   
@@ -77,9 +77,6 @@ body {
 .ph-button--mtime {
   background-color: #1e7dd7;
 }
-.ph-button--xiami {
-  background-color: #FA8723;
-}
 .ph-button--weibo {
   background-color: #4d7a95;
 }
@@ -98,8 +95,8 @@ body {
 .ph-button--jira {
   background-color: #3572b0;
 }
-.ph-button--anydo {
-  background-color: #09c;
+.ph-button--calendar {
+  background-color: #4285f4;
 }
 .ph-button--asana {
   background-color: #fd9a00;
@@ -121,9 +118,6 @@ body {
 }
 .ph-button--ginmon {
   background-color: #0083bc;
-}
-.ph-button--toggl {
-  background-color: rgb(226, 4, 5);
 }
 .ph-button--sentry {
   background-color: #342c3e;
