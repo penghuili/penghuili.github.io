@@ -30,10 +30,8 @@ body {
 
 .ph-button {
   display: inline-block;
-  width: 95%;
   height: 25px;
   line-height: 25px;
-  max-width: 250px;
   padding: 14px 25px;
   margin-bottom: 8px;
   
@@ -129,9 +127,6 @@ body {
   }
   .ph-desktop {
     display: none;
-  }
-  .ph-button {
-    max-width: auto;
   }
 }
 
