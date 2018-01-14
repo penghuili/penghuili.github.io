@@ -120,6 +120,9 @@ body {
 .ph-button--sentry {
   background-color: #342c3e;
 }
+.ph-button--baidupan {
+  background-color: #3b8cff;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
