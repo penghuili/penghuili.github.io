@@ -123,6 +123,9 @@ body {
 .ph-button--baidupan {
   background-color: #3b8cff;
 }
+.ph-button--anydo {
+  background-color: #09c;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
