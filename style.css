@@ -32,7 +32,6 @@ body {
   display: inline-block;
   height: 25px;
   line-height: 25px;
-  padding: 14px 25px;
   margin-bottom: 8px;
   
   background-color: #f44336;
@@ -132,6 +131,8 @@ body {
 }
 .ph-monster-wrapper {
   position: relative;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 .ph-monster-shadow {
   position: absolute;
