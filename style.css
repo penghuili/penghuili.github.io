@@ -119,6 +119,9 @@ body {
 .ph-button--douban {
   background-color: #072;
 }
+.ph-button--youtube {
+  background-color: hsl(3, 81.8%, 49.6%);
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
