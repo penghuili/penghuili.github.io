@@ -116,6 +116,9 @@ body {
 .ph-button--monster {
   background-color: #000;
 }
+.ph-button--douban {
+  background-color: #072;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
