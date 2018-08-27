@@ -122,6 +122,9 @@ body {
 .ph-button--youtube {
   background-color: hsl(3, 81.8%, 49.6%);
 }
+.ph-button--twitter {
+  background-color: #1DA1F2;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
