@@ -74,11 +74,8 @@ body {
 .ph-button--weibo {
   background-color: #4d7a95;
 }
-.ph-button--xiaoya {
-  background-color: #0078a5;
-}
-.ph-button--duonao {
-  background-color: #e93c1a;
+.ph-button--jufen {
+  background-color: #000;
 }
 .ph-button--slack {
   background-color: rgb(77, 57, 75);
@@ -94,9 +91,6 @@ body {
 }
 .ph-button--inbox {
   background-color: #4285f4;
-}
-.ph-button--funtube {
-  background-color: #a82c20;
 }
 .ph-button--wikia {
   background-color: #380759;
