@@ -74,8 +74,8 @@ body {
 .ph-button--weibo {
   background-color: #4d7a95;
 }
-.ph-button--jufen {
-  background-color: #000;
+.ph-button--yueying {
+  background-color: #2E96F1;
 }
 .ph-button--slack {
   background-color: rgb(77, 57, 75);
@@ -133,4 +133,8 @@ body {
   .ph-u-no-bigger-than-sm {
     display: none;
   }
+}
+
+.ph-divider {
+  margin-bottom: 2rem;
 }
