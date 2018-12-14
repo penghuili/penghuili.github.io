@@ -119,6 +119,9 @@ body {
 .ph-button--twitter {
   background-color: #1DA1F2;
 }
+.ph-button--ole {
+  background-color: #ed6d00;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
