@@ -122,11 +122,11 @@ body {
 .ph-button--ole {
   background-color: #ed6d00;
 }
-.ph-button--haitu {
-  background-color: #222;
-}
 .ph-button--haiwai {
   background-color: #3eaf0f;
+}
+.ph-button--wandou {
+  background-color: #5cb85c;
 }
 
 @media screen and (max-width: 567px) {
