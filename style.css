@@ -108,7 +108,8 @@ body {
   background-color: #3b8cff;
 }
 .ph-button--monster {
-  background-color: #000;
+  background-color: #f57c00;
+  border-radius: 0.5rem;
 }
 .ph-button--douban {
   background-color: #072;
