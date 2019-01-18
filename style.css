@@ -108,6 +108,7 @@ body {
   background-color: #3b8cff;
 }
 .ph-button--monster {
+  margin-bottom: 2rem;
   background-color: #f57c00;
   border-radius: 0.5rem;
 }
