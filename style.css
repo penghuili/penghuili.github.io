@@ -133,6 +133,9 @@ body {
 .ph-button--wechat {
   background-color: #09bb07;
 }
+.ph-button--qq {
+  background-color: #4688EB;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
