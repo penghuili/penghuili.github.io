@@ -143,6 +143,9 @@ body {
   background-color: rgba(227,227,227,0.99);
   color: #333;
 }
+.ph-button--medium {
+  background-color: rgba(0, 0, 0, 0.84);
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
