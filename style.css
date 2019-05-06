@@ -146,6 +146,9 @@ body {
 .ph-button--medium {
   background-color: rgba(0, 0, 0, 0.84);
 }
+.ph-button--toggl {
+  background-color: #ed6368;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
