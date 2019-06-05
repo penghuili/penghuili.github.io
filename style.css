@@ -112,6 +112,9 @@ body {
   background-color: #FF0000;
   border-radius: 0.5rem;
 }
+.ph-button--douban-book {
+  background-color: #614e3c;
+}
 .ph-button--douban {
   background-color: #072;
 }
