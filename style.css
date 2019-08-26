@@ -150,6 +150,9 @@ body {
 .ph-button--toggl {
   background-color: rgb(225, 57, 63);
 }
+.ph-button--bili {
+  background-color: #ffafc9;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
