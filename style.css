@@ -153,6 +153,16 @@ body {
 .ph-button--bili {
   background-color: #ffafc9;
 }
+.ph-button--bitrise {
+  background-color: #6c0eb2;
+}
+.ph-button--okta {
+  background-color: #5889b3;
+}
+.ph-button--travis {
+  background-color: #f1f1f1;
+  color: #666;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
