@@ -109,6 +109,12 @@ body {
 }
 .ph-button--monster {
   background-color: #e62117;
+  border-radius: 0.5rem;
+  height: auto;
+  display: inline-flex;
+  width: 7rem;
+  justify-content: space-around;
+  align-items: center;
 }
 .ph-button--douban-book {
   background-color: #614e3c;
