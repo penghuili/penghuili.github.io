@@ -172,6 +172,9 @@ body {
 .ph-button--xiaoya {
   background-color: #ff9800;
 }
+.ph-button--nf {
+  background-color: red;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
