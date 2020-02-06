@@ -52,9 +52,6 @@ body {
 .ph-button--github {
   background-color: #24292e;
 }
-.ph-button--d {
-  background-color: #44b336;
-}
 .ph-button--db {
   background-color: #f01414;
 }
@@ -174,6 +171,9 @@ body {
 }
 .ph-button--nf {
   background-color: red;
+}
+.ph-button--youdao {
+  border-color: #dd0a20;
 }
 
 @media screen and (max-width: 567px) {
