@@ -142,7 +142,10 @@ body {
   background-color: #ff9800;
 }
 .ph-button--youdao {
-  border-color: #dd0a20;
+  background-color: #dd0a20;
+}
+.ph-button--yixuan {
+  background-color: linear-gradient(to bottom,#00bfff 1%,#1e90ff 60%,#6495ed);
 }
 
 @media screen and (max-width: 567px) {
