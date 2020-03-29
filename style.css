@@ -147,6 +147,9 @@ body {
 .ph-button--yixuan {
   background-color: linear-gradient(to bottom,#00bfff 1%,#1e90ff 60%,#6495ed);
 }
+.ph-button--weread {
+  background-color: rgb(48, 169, 254);
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
