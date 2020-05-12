@@ -99,7 +99,7 @@ body {
   background-color: #614e3c;
 }
 .ph-button--douban {
-  background-color: #072;
+  background-color: #27a;
 }
 .ph-button--youtube {
   background-color: hsl(3, 81.8%, 49.6%);
@@ -144,8 +144,8 @@ body {
 .ph-button--cidian {
   background-color: #2dacbf;
 }
-.ph-button--yixuan {
-  background-color: linear-gradient(to bottom,#00bfff 1%,#1e90ff 60%,#6495ed);
+.ph-button--acgmh {
+  background-color: #f16b6f;
 }
 .ph-button--weread {
   background-color: rgb(48, 169, 254);
