@@ -150,6 +150,10 @@ body {
 .ph-button--weread {
   background-color: rgb(48, 169, 254);
 }
+.ph-button--notion {
+  background-color: rgb(55, 53, 47);
+  color: white;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
