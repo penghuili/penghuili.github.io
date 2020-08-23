@@ -151,6 +151,10 @@ body {
   background-color: rgb(55, 53, 47);
   color: white;
 }
+.ph-button--instagram {
+  background-color: #262626;
+  color: white;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
