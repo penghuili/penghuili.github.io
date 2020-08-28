@@ -43,12 +43,6 @@ body {
 .ph-button:last-of-type {
   margin-bottom: 8px;
 }
-.ph-button--keep {
-  background-color: #fb0;
-}
-.ph-button--github {
-  background-color: #24292e;
-}
 .ph-button--art {
   background-color: #36A3B7;
 }
@@ -91,9 +85,6 @@ body {
   width: 7rem;
   justify-content: space-around;
   align-items: center;
-}
-.ph-button--douban-book {
-  background-color: #614e3c;
 }
 .ph-button--douban {
   background-color: #27a;
@@ -150,6 +141,9 @@ body {
 .ph-button--instagram {
   background-color: #262626;
   color: white;
+}
+.ph-button--yinghua {
+  background-color: #FC8BBB;
 }
 
 @media screen and (max-width: 567px) {
