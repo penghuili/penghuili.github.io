@@ -89,6 +89,9 @@ body {
 .ph-button--douban {
   background-color: #072;
 }
+.ph-button--podcasts {
+  background-color: #1a73e8;
+}
 .ph-button--youtube {
   background-color: hsl(3, 81.8%, 49.6%);
 }
