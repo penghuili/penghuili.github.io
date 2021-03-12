@@ -59,24 +59,6 @@ body {
 .ph-button--weibo {
   background-color: #4d7a95;
 }
-.ph-button--slack {
-  background-color: rgb(77, 57, 75);
-}
-.ph-button--jira {
-  background-color: #3572b0;
-}
-.ph-button--calendar {
-  background-color: #4285f4;
-}
-.ph-button--gmail {
-  background-color: #d93025;
-}
-.ph-button--ginmon {
-  background-color: #0083bc;
-}
-.ph-button--sentry {
-  background-color: #342c3e;
-}
 .ph-button--monster {
   background-color: #b85042;
   border-radius: 0.5rem;
@@ -101,40 +83,6 @@ body {
 .ph-button--ole {
   background-color: #ed6d00;
 }
-.ph-button--wy {
-  background-color: #0094E3;
-}
-.ph-button--wechat {
-  background-color: #09bb07;
-}
-.ph-button--sina {
-  background-color: #CB1F1D;
-}
-.ph-button--medium {
-  background-color: rgba(0, 0, 0, 0.84);
-}
-.ph-button--toggl {
-  background-color: rgb(225, 57, 63);
-}
-.ph-button--bili {
-  background-color: #ffafc9;
-}
-.ph-button--bitrise {
-  background-color: #6c0eb2;
-}
-.ph-button--okta {
-  background-color: #5889b3;
-}
-.ph-button--travis {
-  background-color: #f1f1f1;
-  color: #666;
-}
-.ph-button--xiaoya {
-  background-color: #ff9800;
-}
-.ph-button--cidian {
-  background-color: #2dacbf;
-}
 .ph-button--acgmh {
   background-color: #f16b6f;
 }
@@ -144,9 +92,6 @@ body {
 .ph-button--instagram {
   background-color: #262626;
   color: white;
-}
-.ph-button--yinghua {
-  background-color: #FC8BBB;
 }
 
 @media screen and (max-width: 567px) {
