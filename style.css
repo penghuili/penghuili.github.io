@@ -96,6 +96,10 @@ body {
   background-color: #262626;
   color: white;
 }
+.ph-button--deal {
+  background-color: #69be28;
+}
+
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
