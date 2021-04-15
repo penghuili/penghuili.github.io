@@ -99,6 +99,9 @@ body {
 .ph-button--deal {
   background-color: #69be28;
 }
+.ph-button--coincap {
+  background-color: rgb(56, 97, 251);
+}
 
 
 @media screen and (max-width: 567px) {
