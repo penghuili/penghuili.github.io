@@ -102,7 +102,9 @@ body {
 .ph-button--coincap {
   background-color: rgb(56, 97, 251);
 }
-
+.ph-button--binance {
+  background-color: #F0B90B;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
