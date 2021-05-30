@@ -102,6 +102,9 @@ body {
 .ph-button--bitwarden {
   background-color: #175DDC;
 }
+.ph-button--dict {
+  background-color: #2dacbf;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
