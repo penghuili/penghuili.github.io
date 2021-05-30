@@ -99,6 +99,9 @@ body {
 .ph-button--binance {
   background-color: #F0B90B;
 }
+.ph-button--bitwarden {
+  background-color: #175DDC;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
