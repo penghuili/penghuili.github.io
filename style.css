@@ -105,6 +105,9 @@ body {
 .ph-button--dict {
   background-color: #2dacbf;
 }
+.ph-button--yinyang {
+  background-color: #ffd52b;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
