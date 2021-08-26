@@ -108,6 +108,9 @@ body {
 .ph-button--yinyang {
   background-color: #ffd52b;
 }
+.ph-button--currency {
+  background-color: rgb(0, 111, 232);
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
