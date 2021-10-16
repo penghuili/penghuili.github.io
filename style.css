@@ -56,9 +56,6 @@ body {
 .ph-button--mtime {
   background-color: #1e7dd7;
 }
-.ph-button--weibo {
-  background-color: #4d7a95;
-}
 .ph-button--monster {
   background-color: #b85042;
   border-radius: 0.5rem;
@@ -89,15 +86,8 @@ body {
 .ph-button--weread {
   background-color: rgb(48, 169, 254);
 }
-.ph-button--instagram {
-  background-color: #262626;
-  color: white;
-}
 .ph-button--coincap {
   background-color: rgb(56, 97, 251);
-}
-.ph-button--binance {
-  background-color: #F0B90B;
 }
 .ph-button--bitwarden {
   background-color: #175DDC;
@@ -113,6 +103,9 @@ body {
 }
 .ph-button--coinmarketcap {
   background-color: #3861fb;
+}
+.ph-button--imdb {
+  background-color: rgb(245,197,24);
 }
 
 @media screen and (max-width: 567px) {
