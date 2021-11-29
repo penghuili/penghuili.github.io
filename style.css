@@ -107,6 +107,9 @@ body {
 .ph-button--imdb {
   background-color: rgb(245,197,24);
 }
+.ph-button--jisu {
+  background-color: #ffa900;
+}
 
 @media screen and (max-width: 567px) {
   .ph-u-no-sm {
